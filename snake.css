@@ -1,0 +1,23 @@
+.row{
+	clear: left;
+}
+
+.grid{
+	float: left;
+	width: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	border: 1px solid grey;
+}
+
+.snake{
+	background-color: green;
+}
+
+.snakeHead{
+	background-color: black;
+}
+
+.apple{
+	background-color: red;
+}

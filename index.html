@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<!-- <script type="text/javascript" src="underscore.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="snake.css">
+</head>
+<body>
+	<!-- <pre id="snakeBoard"></pre> -->
+
+	<div id="snakeBoard">
+	</div>
+
+
+	<script type="text/javascript" src="snake.js"></script>
+	<script type="text/javascript" src="snake_ui.js"></script>
+	<script type="text/javascript">
+		var Game = new this.SnakeGame.View($("#snakeBoard"));
+		Game.start();
+	</script>
+</body>
+</html>
